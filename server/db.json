@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "quote": "A beautiful, smart, and loving person will be coming into your life.",
+    "favorite": true
+  },
+
+  {
+    "id": 2,
+    "quote": "A dubious friend may be an enemy in camouflage.",
+    "favorite": true
+  },
+
+  {
+    "id": 3,
+    "quote": "A faithful friend is a strong defense",
+    "favorite": true
+  },
+
+  {
+    "id": 4,
+    "quote": "A feather in the hand is better than a bird in the air",
+    "favorite": true
+  },
+
+  {
+    "id": 5,
+    "quote": " A fresh start will put you on your way.",
+    "favorite": true
+  }
+]
