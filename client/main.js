@@ -44,6 +44,7 @@ let postQuote = () => {
       })
       .catch(() => errCallback());
   }
+  quoteInput.value = "";
 };
 
 // change quote/compliment to favorite or not favorite
@@ -71,7 +72,7 @@ let getCompliment = () => {
 // Display
 function createComplimentsCard(comp) {
   const compCard = document.createElement("div");
-  compCard.innerHTML = `<div><h1>${
+  compCard.innerHTML = `<div><h1 class="h2">${
     comp.quote
   }</h1> <button onclick="deletecompliment(${
     comp.id
