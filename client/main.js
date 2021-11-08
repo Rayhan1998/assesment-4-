@@ -35,13 +35,15 @@ let postQuote = () => {
     favorite: true
   };
 
-  axios
-    .post(baseURL, quoteObj)
-    .then(res => {
-      displayCompliments(res.data);
-      compliments = res.data;
-    })
-    .catch(() => errCallback());
+  if (quoteInput.value.length > 0) {
+    axios
+      .post(baseURL, quoteObj)
+      .then(res => {
+        displayCompliments(res.data);
+        compliments = res.data;
+      })
+      .catch(() => errCallback());
+  }
 };
 
 // change quote/compliment to favorite or not favorite
