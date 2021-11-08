@@ -7,7 +7,6 @@ let compliments = [];
 const errCallback = err => console.log(err);
 
 // functions
-
 let callForCompliments = () => {
   axios
     .get(baseURL)
